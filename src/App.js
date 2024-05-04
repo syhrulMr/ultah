@@ -5,14 +5,25 @@ import { Typewriter } from "react-simple-typewriter";
 import Countdown from "react-countdown";
 
 function App() {
-  const [newYearMessage, setNewYearMessage] = useState(["👋Bye Umur Belasan👋"]);
-
+  const [newYearMessage, setNewYearMessage] = useState(["👋HEHE!👋"]);
+  const particlesOptions = {
+    preset: "fireworks",
+    particles: {
+      number: {
+        value: 5000, // Ubah nilai ini untuk mengurangi jumlah partikel
+        density: {
+          enable: true,
+          value_area: 800,
+        },
+      },
+    },
+  };
   const particlesInit = async (preset) => {
     await loadFireworksPreset(preset);
   };
 
   const timeLeft = () => {
-    const newYearDate = new Date("May 5, 2024 00:00:00").getTime();
+    const newYearDate = new Date("November 11, 2024 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = newYearDate - now;
     return difference;
@@ -30,7 +41,7 @@ function App() {
             cursorStyle={"_"}
             typeSpeed={50}
             deleteSpeed={50}
-            delaySpeed={1000}
+            delaySpeed={500}
           />
         </span>
         <div className="text-white font-bold text-2xl z-50 ">
@@ -40,8 +51,8 @@ function App() {
               setNewYearMessage([
                 "Selamat",
                 "Bertambah",
-                "Usia, AllU",
-                "✨2024-05-05✨",
+                "Usia, Kiky",
+                "✨2024-24-11✨",
               ])
             }
           />
