@@ -6,18 +6,7 @@ import Countdown from "react-countdown";
 
 function App() {
   const [newYearMessage, setNewYearMessage] = useState(["👋HEHE!👋"]);
-  const particlesOptions = {
-    preset: "fireworks",
-    particles: {
-      number: {
-        value: 5000, // Ubah nilai ini untuk mengurangi jumlah partikel
-        density: {
-          enable: true,
-          value_area: 800,
-        },
-      },
-    },
-  };
+
   const particlesInit = async (preset) => {
     await loadFireworksPreset(preset);
   };
