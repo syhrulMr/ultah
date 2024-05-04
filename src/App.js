@@ -12,7 +12,7 @@ function App() {
   };
 
   const timeLeft = () => {
-    const newYearDate = new Date("May 4, 2024 21:45:00").getTime();
+    const newYearDate = new Date("May 5, 2024 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = newYearDate - now;
     return difference;
