@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ultahAllu/static/css/main.f47df37c.css",
+    "main.js": "/ultahAllu/static/js/main.c8ec7d64.js",
+    "static/js/787.4464426a.chunk.js": "/ultahAllu/static/js/787.4464426a.chunk.js",
+    "index.html": "/ultahAllu/index.html",
+    "main.f47df37c.css.map": "/ultahAllu/static/css/main.f47df37c.css.map",
+    "main.c8ec7d64.js.map": "/ultahAllu/static/js/main.c8ec7d64.js.map",
+    "787.4464426a.chunk.js.map": "/ultahAllu/static/js/787.4464426a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f47df37c.css",
+    "static/js/main.c8ec7d64.js"
+  ]
+}
