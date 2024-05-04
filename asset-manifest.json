@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ultahAllu/static/css/main.f47df37c.css",
-    "main.js": "/ultahAllu/static/js/main.0246bf6f.js",
-    "static/js/787.4464426a.chunk.js": "/ultahAllu/static/js/787.4464426a.chunk.js",
-    "index.html": "/ultahAllu/index.html",
-    "main.f47df37c.css.map": "/ultahAllu/static/css/main.f47df37c.css.map",
-    "main.0246bf6f.js.map": "/ultahAllu/static/js/main.0246bf6f.js.map",
-    "787.4464426a.chunk.js.map": "/ultahAllu/static/js/787.4464426a.chunk.js.map"
+    "main.css": "/ultah/static/css/main.f47df37c.css",
+    "main.js": "/ultah/static/js/main.bc28da5b.js",
+    "static/js/787.4464426a.chunk.js": "/ultah/static/js/787.4464426a.chunk.js",
+    "index.html": "/ultah/index.html",
+    "main.f47df37c.css.map": "/ultah/static/css/main.f47df37c.css.map",
+    "main.bc28da5b.js.map": "/ultah/static/js/main.bc28da5b.js.map",
+    "787.4464426a.chunk.js.map": "/ultah/static/js/787.4464426a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f47df37c.css",
-    "static/js/main.0246bf6f.js"
+    "static/js/main.bc28da5b.js"
   ]
 }
